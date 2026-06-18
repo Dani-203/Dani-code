@@ -1,0 +1,17 @@
+file = open("dani.txt","w")
+file.write("My name is Dani")
+file.write("I am from Thailand")
+file.write("I live in Bangkok")
+file.write("I like coding")
+file.write("I like to play games")
+file.close()
+
+file1 = open("dani.txt","r")
+print(file1.read())
+file1.close()
+
+file2 = open("dani.txt","a")
+file2.write("I am ten years old")
+file2.write("I am in year 6")
+file2.write("I was born in 2015")
+file2.close()
