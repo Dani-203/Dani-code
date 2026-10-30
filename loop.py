@@ -1,10 +1,20 @@
-num = 17
-for i in range(1,11):
-    mul = num* i
-    print(f"{num} x {i} = {mul}")
+# Python program to print the multiplication table of 23 from 1 to 10
+
+# Loop from 1 to 10
+
+for i in range(1, 11):
+
+# Print the multiplication of 23 by i
+
+    print(f"23 X {i} = {23 * i}")
 
 
-num = 23
-for i in range(1,11):
-    mul = num* i
-    print(f"{num} x {i} = {mul}")
+ # Python program to print the multiplication table of 29 from 1 to 10
+
+ # Loop from 1 to 10
+
+for i in range(1, 11):
+
+# Print the multiplication of 23 by i
+
+    print(f"23 X {i} = {23 *i}")
